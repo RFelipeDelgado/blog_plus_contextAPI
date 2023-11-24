@@ -11,12 +11,12 @@ const Controles = () => {
         <ContenedorControles>
             <div>
                 <Boton onClick={valores.aumentarFont}>Aumentar Font</Boton>
-                <Boton onClick={valores.aumentarFont}>Disminuir Font</Boton>
+                <Boton onClick={valores.disminuirFont}>Disminuir Font</Boton>
             </div>
             <div>
-                <Boton onClick={valores.aumentarFont}>Izquierda</Boton>
-                <Boton onClick={valores.aumentarFont}>Centro</Boton>
-                <Boton onClick={valores.aumentarFont}>Derecha</Boton>
+                <Boton onClick={valores.alinearIzq}>Izquierda</Boton>
+                <Boton onClick={valores.alinearCenter}>Centro</Boton>
+                <Boton onClick={valores.alinearDer}>Derecha</Boton>
             </div>
         </ContenedorControles>
     );

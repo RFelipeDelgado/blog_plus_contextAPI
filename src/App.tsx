@@ -45,7 +45,6 @@ const Main = styled.main`
   padding: 40px;
   border-radius: 10px;
   box-shadow: 8px 8px 5px rgba(129, 129, 129, 0.1);
-  text-align: center;
 
   /* width: 90%; */
 `;
